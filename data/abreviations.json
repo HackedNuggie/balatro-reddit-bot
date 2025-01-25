@@ -1,0 +1,9 @@
+{
+    "+m":"additive mult",
+    "+c":"chip",
+    "Xm":"multiplicative mult",
+    "++":"additive mult & chips",
+    "!!":"effect",
+    "...":"retrigger",
+    "+$":"economy"
+}

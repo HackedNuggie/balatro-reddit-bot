@@ -1,0 +1,292 @@
+[
+    {
+        "id": 1,
+        "name": "Overstock",
+        "effect": "+1 card slot available in shop (to 3 slots)",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Overstock Plus",
+        "Note": "N/A"
+    },
+    {
+        "id": 2,
+        "name": "Overstock Plus",
+        "effect": "+1 card slot available in shop (to 4 slots)",
+        "cost": "$10",
+        "availability": "Spend a total of $2500 at the shop",
+        "upgraded": "",
+        "Note": "Also immediately restocks any empty card slots in the Shop when purchased"
+    },
+    {
+        "id": 3,
+        "name": "Clearance Sale",
+        "effect": "All cards and packs in shop are 25% off",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Liquidation",
+        "Note": "Also reduces the sell value of your present jokers"
+    },
+    {
+        "id": 4,
+        "name": "Liquidation",
+        "effect": "All cards and packs in shop are 50% off",
+        "cost": "$10",
+        "availability": "Redeem at least 10 Voucher cards in one run",
+        "upgraded": "",
+        "Note": "Also reduces the sell value of your present jokers. "
+    },
+    {
+        "id": 5,
+        "name": "Hone",
+        "effect": "Foil, Holographic, and Polychrome cards appear 2x more often",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Glow Up",
+        "Note": "N/A"
+    },
+    {
+        "id": 6,
+        "name": "Glow Up",
+        "effect": "Foil, Holographic, and Polychrome cards appear 4x more often",
+        "cost": "$10",
+        "availability": "Unlock when you have at least 5 Joker cards with Foil, Holographic, or Polychrome (or Negative) effect",
+        "upgraded": "",
+        "Note": "Polychrome on Jokers actually appears 3x more often for Hone and 7x more often for Glow Up."
+    },
+    {
+        "id": 7,
+        "name": "Reroll Surplus",
+        "effect": "Rerolls cost $2 less",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Reroll Glut",
+        "Note": "N/A"
+    },
+    {
+        "id": 8,
+        "name": "Reroll Glut",
+        "effect": "Rerolls cost an additional $2 less",
+        "cost": "$10",
+        "availability": "Reroll the shop a total of 100 times",
+        "upgraded": "",
+        "Note": "N/A"
+    },
+    {
+        "id": 9,
+        "name": "Crystal Ball",
+        "effect": "+1 consumable slot",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Omen Globe",
+        "Note": "N/A"
+    },
+    {
+        "id": 10,
+        "name": "Omen Globe",
+        "effect": "Spectral cards may appear in any of the Arcana Packs",
+        "cost": "$10",
+        "availability": "Use a total of 25 Tarot cards from booster packs",
+        "upgraded": "",
+        "Note": "N/A"
+    },
+    {
+        "id": 11,
+        "name": "Telescope",
+        "effect": "Celestial Packs always contain the Planet card for your most played poker hand",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Observatory",
+        "Note": "Telescope picks the higher tier hand in case of multiple most played hands"
+    },
+    {
+        "id": 12,
+        "name": "Observatory",
+        "effect": "Planet cards in your consumable area give X1.5 Mult for their specified poker hand",
+        "cost": "$10",
+        "availability": "Use a total of 25 Planet cards from booster packs. ",
+        "upgraded": "",
+        "Note": "Telescope picks the higher tier hand in case of multiple most played hands"
+    },
+    {
+        "id": 13,
+        "name": "Grabber",
+        "effect": "Permanently gain +1 hand per round",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Nacho Tong",
+        "Note": "N/A"
+    },
+    {
+        "id": 14,
+        "name": "Nacho Tong",
+        "effect": "Permanently gain an additional +1 hand per round",
+        "cost": "$10",
+        "availability": "Play a total of 2500 cards",
+        "upgraded": "",
+        "Note": "N/A"
+    },
+    {
+        "id": 15,
+        "name": "Wasteful",
+        "effect": "Permanently gain +1 discard each round",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Recyclomancy",
+        "Note": "N/A"
+    },
+    {
+        "id": 16,
+        "name": "Recyclomancy",
+        "effect": "Permanently gain an additional +1 discard each round",
+        "cost": "$10",
+        "availability": "Discard a total of 2500 cards",
+        "upgraded": "",
+        "Note": "N/A"
+    },
+    {
+        "id": 17,
+        "name": "Tarot Merchant",
+        "effect": "Tarot cards appear 2X more frequently in the shop",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Tarot Tycoon",
+        "Note": "N/A"
+    },
+    {
+        "id": 18,
+        "name": "Tarot Tycoon",
+        "effect": "Tarot cards appear 4X more frequently in the shop",
+        "cost": "$10",
+        "availability": "Buy a total of 50 Tarot cards from the shop",
+        "upgraded": "",
+        "Note": "N/A"
+    },
+    {
+        "id": 19,
+        "name": "Planet Merchant",
+        "effect": "Planet cards appear 2X more frequently in the shop",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Planet Tycoon",
+        "Note": "N/A"
+    },
+    {
+        "id": 20,
+        "name": "Planet Tycoon",
+        "effect": "Planet cards appear 4X more frequently in the shop",
+        "cost": "$10",
+        "availability": "Buy a total of 50 Planet cards from the shop",
+        "upgraded": "",
+        "Note": "N/A"
+    },
+    {
+        "id": 21,
+        "name": "Seed Money",
+        "effect": "Raise the cap on interest earned in each round to $10",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Money Tree",
+        "Note": "Does nothing when playing the Green Deck."
+    },
+    {
+        "id": 22,
+        "name": "Money Tree",
+        "effect": "Raise the cap on interest earned in each round to $20",
+        "cost": "$10",
+        "availability": "Max out the interest per round earnings for ten consecutive rounds",
+        "upgraded": "",
+        "Note": "Does nothing when playing the Green Deck."
+    },
+    {
+        "id": 23,
+        "name": "Blank",
+        "effect": "Does nothing?",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Antimatter",
+        "Note": "N/A"
+    },
+    {
+        "id": 24,
+        "name": "Antimatter",
+        "effect": "+1 Joker slot",
+        "cost": "$10",
+        "availability": "Redeem Blank Voucher 10 total times",
+        "upgraded": "",
+        "Note": "The Antimatter Voucher is always displayed in game as if it was a negative edition and applies the same effect as negative Jokers"
+    },
+    {
+        "id": 25,
+        "name": "Magic Trick",
+        "effect": "Playing cards can be purchased from the shop",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Illusion",
+        "Note": "N/A"
+    },
+    {
+        "id": 26,
+        "name": "Illusion",
+        "effect": "Playing cards in shop may have an Enhancement, Edition, and/or a Seal",
+        "cost": "$10",
+        "availability": "Buy a total of 20 Playing cards from the shop",
+        "upgraded": "",
+        "Note": "Illusion is currently (v1.0.1g-FULL) bugged, and cards in the shop cannot have seals, only enhancements and/or editions"
+    },
+    {
+        "id": 27,
+        "name": "Hieroglyph",
+        "effect": "-1 Ante, -1 hand each round",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Petroglyph",
+        "Note": "N/A"
+    },
+    {
+        "id": 28,
+        "name": "Petroglyph",
+        "effect": "-1 Ante, -1 discard each round",
+        "cost": "$10",
+        "availability": "Reach Ante level 12",
+        "upgraded": "",
+        "Note": "N/A"
+    },
+    {
+        "id": 29,
+        "name": "Director's Cut",
+        "effect": "Reroll Boss Blind 1 time per Ante, $10 per roll",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Retcon",
+        "Note": "N/A"
+    },
+    {
+        "id": 30,
+        "name": "Retcon",
+        "effect": "Reroll Boss Blind unlimited times, $10 per roll",
+        "cost": "$10",
+        "availability": "Discover 25 Blinds",
+        "upgraded": "",
+        "Note": "N/A"
+    },
+    {
+        "id": 31,
+        "name": "Paint Brush",
+        "effect": "+1 hand size",
+        "cost": "$10",
+        "availability": "Always available",
+        "upgraded": "Palette",
+        "Note": "N/A"
+    },
+    {
+        "id": 32,
+        "name": "Palette",
+        "effect": "+1 hand size again",
+        "cost": "$10",
+        "availability": "Reduce your hand size down to 5 cards",
+        "upgraded": "",
+        "Note": "N/A"
+    }
+    
+
+]

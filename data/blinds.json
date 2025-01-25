@@ -1,0 +1,212 @@
+[
+    {
+        "name": "Small Blind",
+        "effect": "No special effects - can be skipped to receive a Tag",
+        "minimum_ante": 1,
+        "multiplier": "1x base",
+        "earnings": "$$$"
+    },
+    {
+        "name": "Big Blind",
+        "effect": "No special effects - can be skipped to receive a Tag",
+        "minimum_ante": 1,
+        "multiplier": "1.5x base",
+        "earnings": "$$$$"
+    },
+    {
+        "name": "The Hook",
+        "effect": "Discards 2 random cards held in hand after every played hand",
+        "minimum_ante": 1,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Ox",
+        "effect": "Playing your most played hand this run sets money to $0",
+        "minimum_ante": 6,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The House",
+        "effect": "First hand is drawn face down",
+        "minimum_ante": 2,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Wall",
+        "effect": "Extra large blind",
+        "minimum_ante": 2,
+        "multiplier": "4x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Wheel",
+        "effect": "1 in 7 cards get drawn face down during the round",
+        "minimum_ante": 2,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Arm",
+        "effect": "Decrease level of played poker hand by 1 (hand levels can go as low as Level 1, and are reduced before scoring)",
+        "minimum_ante": 2,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Club",
+        "effect": "All Club cards are debuffed",
+        "minimum_ante": 1,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Fish",
+        "effect": "Cards drawn face down after each hand played",
+        "minimum_ante": 2,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Psychic",
+        "effect": "Must play 5 cards (not all cards need to score)",
+        "minimum_ante": 1,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Goad",
+        "effect": "All Spade cards are debuffed",
+        "minimum_ante": 1,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Water",
+        "effect": "Start with 0 discards",
+        "minimum_ante": 2,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Window",
+        "effect": "All Diamond cards are debuffed",
+        "minimum_ante": 1,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Manacle",
+        "effect": "-1 Hand Size",
+        "minimum_ante": 1,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Eye",
+        "effect": "No repeat hand types this round (every hand played this round must be of a different type and not previously played this round)",
+        "minimum_ante": 3,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Mouth",
+        "effect": "Only one hand type can be played this round",
+        "minimum_ante": 2,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Plant",
+        "effect": "All face cards are debuffed",
+        "minimum_ante": 4,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Serpent",
+        "effect": "After Play or Discard, always draw 3 cards (ignores hand size)",
+        "minimum_ante": 5,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Pillar",
+        "effect": "Cards played previously this Ante (during Small and Big Blinds) are debuffed",
+        "minimum_ante": 1,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Needle",
+        "effect": "Play only 1 hand",
+        "minimum_ante": 2,
+        "multiplier": "1x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Head",
+        "effect": "All Heart cards are debuffed",
+        "minimum_ante": 1,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Tooth",
+        "effect": "Lose $1 per card played",
+        "minimum_ante": 3,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Flint",
+        "effect": "Base Chips and Mult for played poker hands are halved for the entire round",
+        "minimum_ante": 2,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "The Mark",
+        "effect": "All face cards are drawn face down",
+        "minimum_ante": 2,
+        "multiplier": "2x base",
+        "earnings": "$$$$$"
+    },
+    {
+        "name": "Amber Acorn",
+        "effect": "Flips and shuffles all Joker cards",
+        "minimum_ante": 8,
+        "multiplier": "2x base",
+        "earnings": "$$$$$$$$"
+    },
+    {
+        "name": "Verdant Leaf",
+        "effect": "All cards debuffed until 1 Joker sold",
+        "minimum_ante": 8,
+        "multiplier": "2x base",
+        "earnings": "$$$$$$$$"
+    },
+    {
+        "name": "Violet Vessel",
+        "effect": "Very large blind",
+        "minimum_ante": 8,
+        "multiplier": "6x base",
+        "earnings": "$$$$$$$$"
+    },
+    {
+        "name": "Crimson Heart",
+        "effect": "One random Joker disabled every hand (changes every hand)",
+        "minimum_ante": 8,
+        "multiplier": "2x base",
+        "earnings": "$$$$$$$$"
+    },
+    {
+        "name": "Cerulean Bell",
+        "effect": "Forces 1 card to always be selected",
+        "minimum_ante": 8,
+        "multiplier": "2x base",
+        "earnings": "$$$$$$$$"
+    }
+]
