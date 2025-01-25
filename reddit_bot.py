@@ -2,7 +2,8 @@ import json
 import praw
 import re
 import os
-
+from dotenv import load_dotenv
+load_dotenv()
 with open("data/blinds.json","r") as b, open("data/jokers.json","r") as j,open("data/abreviations.json","r") as a,open("data/vouchers.json","r") as v:
     blinds = json.load(b)
     jokers = json.load(j)
