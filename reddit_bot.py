@@ -10,6 +10,8 @@ with open("data/blinds.json","r") as b, open("data/jokers.json","r") as j,open("
     abbrev = json.load(a)
     vouchers = json.load(v)
 
+# function made for searching through the json files and outputting the right messages
+# function start - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 def matchSearch(group):
     group = group.lower()
 
@@ -54,34 +56,37 @@ Data painstakingly pulled from [the fandom wiki](https://balatrogame.fandom.com/
 *Data painstakingly pulled from [the fandom wiki](https://balatrogame.fandom.com/wiki/Balatro_Wiki).*
 """
     return ""
+#function end - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
+#start of main function
 if __name__  == "__main__":
+    # variables stored in env so people don't steal my account :3
     username = "other_balatro_bot"
     password = os.getenv("PASSWORD")
     client_id = os.getenv("CLIENT_ID")
     client_secret=os.getenv("CLIENT_SECRET")
 
+    #creating a reddit instance
     reddi_inst = praw.Reddit(
         client_id = client_id,
         client_secret=client_secret,
         username=username,
         password=password,
-        user_agent="test_bot"
+        user_agent="bot"
     )
 
-    subreddit = reddi_inst.subreddit("balatro")
-    print(subreddit)
+    # start the submission in desired server
+    submission = reddi_inst.subreddit("testingground4bots").stream.comments(skip_existing=True) # skip_existing only replies to comments posted after bot start
 
-    print(matchSearch("Seed money"))
-    submission = reddi_inst.subreddit("testingground4bots").stream.comments()
-    print(submission)
-
+    # pattern to recognise [[name]]
     pattern = r"\[\[(.*?)\]\]"
+    # reply to new comments
     for x in submission:
         match = re.search(pattern,x.body)
-        print(x.body)
+        # print(x.body) # print messages
         if match:
+            
             if matchSearch(match.group(1)) != "":
-
+                # x.reply( matchSearch(match.group(1)))
                 print(match.group(1))
 
