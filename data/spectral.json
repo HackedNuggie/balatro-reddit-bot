@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "name": "General",
+      "effect": "Destroy 1 random card in your hand, but add 3 random Enhanced face cards instead.",
+      "Note": "Cannot be used when your hand size is 1"
+    },
+    {
+      "id": 2,
+      "name": "Grim",
+      "effect": "Destroy 1 random card in your hand, but add 2 random Enhanced Aces instead.",
+      "Note": "Cannot be used when your hand size is 1"
+    },
+    {
+      "id": 3,
+      "name": "Incantation",
+      "effect": "Destroy 1 random card in your hand, but add 4 random Enhanced numbered cards instead.",
+      "Note": "Cannot be used when your hand size is 1"
+    },
+    {
+      "id": 4,
+      "name": "Talisman",
+      "effect": "Add a Gold Seal to 1 selected card.",
+      "Note": ""
+    },
+    {
+      "id": 5,
+      "name": "Aura",
+      "effect": "Add Foil, Holographic, or Polychrome edition (determined at random) to 1 selected card in hand.",
+      "Note": "has a 50% chance to make a card Foil, 35% to make it Holographic, and a 15% chance to make it Polychrome | the same as wheel of fortune"
+    },
+    {
+      "id": 6,
+      "name": "Wraith",
+      "effect": "Creates a random Rare Joker (must have room), but sets money to $0.",
+      "Note": "Sets your money to $0 even when it is negative, removing your dept completely"
+    },
+    {
+      "id": 7,
+      "name": "Sigil",
+      "effect": "Converts all cards in hand to a single random suit.",
+      "Note": "Cannot be used when your hand size is 1"
+    },
+    {
+      "id": 8,
+      "name": "Ouija",
+      "effect": "Converts all cards in hand to a single random rank, but -1 hand size.",
+      "Note": "Cannot be used when your hand size is 1"
+    },
+    {
+      "id": 9,
+      "name": "Ectoplasm",
+      "effect": "Add Negative to a random Joker, but -1 hand size. (Hand size reduction on use increases by 1 for every time Ectoplasm is used in a run, e.g., using Ectoplasm 3 times in the same run decreases hand size by a total of 6 (1+2+3)).",
+      "Note": ""
+    },
+    {
+      "id": 10,
+      "name": "Immolate",
+      "effect": "Destroys 5 random cards in hand, but gain $20.",
+      "Note": "Cannot be used when your hand size is 1"
+    },
+    {
+      "id": 11,
+      "name": "Ankh",
+      "effect": "Creates a copy of 1 of your Jokers at random, then destroys the others, leaving you with two identical Jokers. (Editions are also copied, except Negative).",
+      "Note": "Cannot destroy eternal jokers "
+    },
+    {
+      "id": 12,
+      "name": "Deja Vu",
+      "effect": "Adds a Red Seal to 1 selected card.",
+      "Note": ""
+    },
+    {
+      "id": 13,
+      "name": "Hex",
+      "effect": "Adds Polychrome to a random Joker, and destroys the rest.",
+      "Note": "Cannot destroy eternal jokers | Cannot be used when all your jokers already have an Edition"
+    },
+    {
+      "id": 14,
+      "name": "Trance",
+      "effect": "Adds a Blue Seal to 1 selected card.",
+      "Note": ""
+    },
+    {
+      "id": 15,
+      "name": "Medium",
+      "effect": "Adds a Purple Seal to 1 selected card.",
+      "Note": ""
+    },
+    {
+      "id": 16,
+      "name": "Cryptid",
+      "effect": "Creates 2 exact copies (including Enhancements, Editions, and Seals) of a selected card in your hand.",
+      "Note": ""
+    },
+    {
+      "id": 17,
+      "name": "The Soul",
+      "effect": "Creates a Legendary Joker (must have room).",
+      "Note": "This card is animated, beating like a heart"
+    },
+    {
+      "id": 18,
+      "name": "Black Hole",
+      "effect": "Upgrades every poker hand (including secret hands not yet discovered) by one level.",
+      "Note": "The black hole is pulling both the card's edges and its name tag toward its center"
+    }
+]
+  
