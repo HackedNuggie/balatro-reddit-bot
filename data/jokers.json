@@ -5,7 +5,7 @@
         "effect":"+4 Mult",
         "cost":"$2",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"Indep."
     },
@@ -15,7 +15,7 @@
         "effect":"Played cards with Diamond suit icon give +3 Mult when scored",
         "cost":"$5",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"On Scored"
     },
@@ -25,7 +25,7 @@
         "effect":"Played cards with Heart suit icon give +3 Mult when scored",
         "cost":"$5",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"On Scored"
     },
@@ -35,7 +35,7 @@
         "effect":"Played cards with Spade suit icon give +3 Mult when scored",
         "cost":"$5",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"On Scored"
     },
@@ -45,7 +45,7 @@
         "effect":"Played cards with Club suit icon give +3 Mult when scored",
         "cost":"$5",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"On Scored"
     },
@@ -55,7 +55,7 @@
         "effect":"+8 Mult if played hand contains a Pair",
         "cost":"$3",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"Indep."
     },
@@ -65,7 +65,7 @@
         "effect":"+12 Mult if played hand contains a Three of a Kind",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"Indep."
     },
@@ -75,7 +75,7 @@
         "effect":"+10 Mult if played hand contains a Two Pair",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"Indep."
     },
@@ -85,7 +85,7 @@
         "effect":"+12 Mult if played hand contains a Straight",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"Indep."
     },
@@ -95,7 +95,7 @@
         "effect":"+10 Mult if played hand contains a Flush",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"Indep."
     },
@@ -105,7 +105,7 @@
         "effect":"+50 Chips if played hand contains a Pair",
         "cost":"$3",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+c",
         "activation":"Indep."
     },
@@ -115,7 +115,7 @@
         "effect":"+100 Chips if played hand contains a Three of a Kind",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+c",
         "activation":"Indep."
     },
@@ -125,7 +125,7 @@
         "effect":"+80 Chips if played hand contains a Two Pair",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+c",
         "activation":"Indep."
     },
@@ -135,7 +135,7 @@
         "effect":"+100 Chips if played hand contains a Straight",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+c",
         "activation":"Indep."
     },
@@ -145,7 +145,7 @@
         "effect":"+80 Chips if played hand contains a Flush",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+c",
         "activation":"Indep."
     },
@@ -155,7 +155,7 @@
         "effect":"+20 Mult if played hand contains 3 or fewer cards.",
         "cost":"$5",
         "rarity":"Common",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"Indep."
     },
@@ -165,7 +165,7 @@
         "effect":"X1 Mult for each empty Joker slot. Joker Stencil included (Currently X1 Mult)",
         "cost":"$8",
         "rarity":"Uncommon",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"Xm",
         "activation":"Indep."
     },
@@ -175,7 +175,7 @@
         "effect":"All Flushes and Straights can be made with 4 cards",
         "cost":"$7",
         "rarity":"Uncommon",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"!!",
         "activation":"N/A"
     },
@@ -185,7 +185,7 @@
         "effect":"Reactivation all card held in hand abilities",
         "cost":"$5",
         "rarity":"Uncommon",
-        "unlock_requirement":"Available from start.",
+        "availability":"Available from start.",
         "type":"...",
         "activation":"On Held"
     },
@@ -195,7 +195,7 @@
         "effect":"Go up to -$20 in debt",
         "cost":"$1",
         "rarity":"Common",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"+$",
         "activation":"N/A"
     },
@@ -205,7 +205,7 @@
         "effect":"When Blind is selected, destroy Joker to the right and permanently add double its sell value to this Mult (Currently +0 Mult)",
         "cost":"$6",
         "rarity":"Uncommon",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"Indep."
     },
@@ -215,7 +215,7 @@
         "effect":"+30 Chips for each remaining discard",
         "cost":"$5",
         "rarity":"Common",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"+c",
         "activation":"Indep."
     },
@@ -225,7 +225,7 @@
         "effect":"+15 Mult when 0 discards remaining",
         "cost":"$5",
         "rarity":"Common",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"Indep."
     },
@@ -235,7 +235,7 @@
         "effect":"Adds one Stone card to the deck when Blind is selected",
         "cost":"$6",
         "rarity":"Uncommon",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"!!",
         "activation":"N/A"
     },
@@ -245,7 +245,7 @@
         "effect":"X4 Mult every 6 hands played\n5 remaining",
         "cost":"$5",
         "rarity":"Uncommon",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"Xm",
         "activation":"Indep."
     },
@@ -255,7 +255,7 @@
         "effect":"1 in 4 chance for each played 8 to create a Tarot card when scored (Must have room)",
         "cost":"$5",
         "rarity":"Common",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"!!",
         "activation":"On Scored"
     },
@@ -265,7 +265,7 @@
         "effect":"+0-23 Mult",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"Indep."
     },
@@ -275,7 +275,7 @@
         "effect":"Reactivation all played cards in final hand of the round",
         "cost":"$5",
         "rarity":"Uncommon",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"...",
         "activation":"On Scored"
     },
@@ -285,7 +285,7 @@
         "effect":"Adds double the rank of lowest ranked card held in hand to Mult",
         "cost":"$5",
         "rarity":"Common",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"On Held"
     },
@@ -295,7 +295,7 @@
         "effect":"1 free Reroll per shop",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"!!",
         "activation":"N/A"
     },
@@ -305,7 +305,7 @@
         "effect":"Each played Ace, 2, 3, 5, or 8 gives +8 Mult when scored",
         "cost":"$8",
         "rarity":"Uncommon",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"On Scored"
     },
@@ -325,7 +325,7 @@
         "effect":"Played face cards give +30 Chips when scored",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"+c",
         "activation":"On Scored"
     },
@@ -335,7 +335,7 @@
         "effect":"+3 Mult for each Joker card (Currently +0 Mult)",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"Indep."
     },
@@ -345,7 +345,7 @@
         "effect":"Earn $2 per discard if no discards are used by end of the round",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"+$",
         "activation":"N/A"
     },
@@ -355,7 +355,7 @@
         "effect":"Reactivation each played 2, 3, 4, or 5",
         "cost":"$6",
         "rarity":"Uncommon",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"...",
         "activation":"On Scored"
     },
@@ -365,7 +365,7 @@
         "effect":"All cards are considered face cards",
         "cost":"$5",
         "rarity":"Uncommon",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"!!",
         "activation":"N/A"
     },
@@ -375,7 +375,7 @@
         "effect":"+15 Mult\n1 in 6 chance this is destroyed at the end of round.",
         "cost":"$5",
         "rarity":"Common",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"Indep."
     },
@@ -385,7 +385,7 @@
         "effect":"Played cards with even rank give +4 Mult when scored (10, 8, 6, 4, 2)",
         "cost":"$4",
         "rarity":"Common",
-        "unlock_condition":"Available from start.",
+        "availability":"Available from start.",
         "type":"+m",
         "activation":"On Scored"
     },
